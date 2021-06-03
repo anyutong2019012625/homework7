@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第七次作业</title>
+</head>
+<style>
+    body{
+		margin:0px;
+        padding:0px;
+	}
+    .cd{
+        width:1200px;
+        height:60px;
+        margin: auto;
+    }
+    .first{
+        background:red;
+        height:40px;
+        width:300px;
+        text-align:center;
+        color:white;
+        line-height:35px;
+    }
+    .second{
+        background:blue;
+        height:40px;
+        width:300px;
+        text-align:center;
+        color:white;
+        line-height:35px;
+    }
+    .third{
+        background:black;
+        height:40px;
+        width:300px;
+        text-align:center;
+        color:white;
+        line-height:35px;
+    }
+    .fourth{
+        background:orange;
+        height:40px;
+        width:300px;
+        text-align:center;
+        color:white;
+        line-height:35px;
+    }
+    @media screen and (min-width:1200px){
+        .cd{
+            display:flex;
+            justify-content:center;
+        }
+    }
+    @media screen and (min-width:992px) and (max-width:1200px) {
+        .cd{
+            justify-content:center;
+        }
+        .first{
+            background:red;
+            height:50px;
+            width:1200px;
+        }
+        .second{
+            background:blue;
+            height:50px;
+            width:400px;
+        }
+        .third{
+            background:black;
+            height:50px;
+            width:400px;
+            float:right;
+            margin-right:400px;
+            margin-top:-50px;
+        }
+        .fourth{
+            background:orange;
+            height:50px;
+            width:400px;
+            margin-right:0px;
+            margin-top:-50px;
+            float:right;
+        }
+    }
+    @media screen and (min-width:768px) and (max-width:992px) {
+        .first{
+            background:red;
+            height:50px;
+            width:200px;
+        }
+        .second{
+            background:blue;
+            height:50px;
+            width:200px;
+            float:right;
+            margin-right:800px;
+            margin-top:-50px;
+        }
+        .third{
+            background:black;
+            height:50px;
+            width:200px;
+            float:left;
+        }
+        .fourth{
+            background:orange;
+            height:50px;
+            width:200px;
+            float:left;
+        }
+    }
+    @media screen and (max-width:768px){
+        .first{
+            height:50px;
+            width:768px;
+        }
+        .second{
+            height:50px;
+            width:768px;
+        }
+        .third{
+            height:50px;
+            width:768px;
+        }
+        .fourth{
+            height:50px;
+            width:768px;
+        }
+    }
+</style>
+<body>
+    <div class="cd">
+        <div class="first">1</div>
+        <div class="second">2</div>
+        <div class="third">3</div>
+        <div class="fourth">4</div>
+    </div>
+
+</body>
+</html>
